@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-19T17:45:26 CEST" name="Suite" finished-at="2021-08-19T17:47:13 CEST" duration-ms="107465">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T17:45:26 CEST" name="Test" finished-at="2021-08-19T17:47:13 CEST" duration-ms="107465">
+      <class name="practice.AppiumFramework.TC01_SumOfItems">
+        <test-method is-config="true" signature="killAllNodes()[pri:0, instance:practice.AppiumFramework.TC01_SumOfItems@b9b00e0]" started-at="2021-08-19T17:45:26 CEST" name="killAllNodes" finished-at="2021-08-19T17:45:29 CEST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method signature="totalValidation()[pri:0, instance:practice.AppiumFramework.TC01_SumOfItems@b9b00e0]" started-at="2021-08-19T17:45:29 CEST" name="totalValidation" finished-at="2021-08-19T17:46:12 CEST" duration-ms="42727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- practice.AppiumFramework.TC01_SumOfItems -->
+      <class name="practice.AppiumFramework.TC02_APIDemoApk">
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:practice.AppiumFramework.TC02_APIDemoApk@7db12bb6]" started-at="2021-08-19T17:46:17 CEST" name="apiDemo" data-provider="InputData" finished-at="2021-08-19T17:46:44 CEST" duration-ms="27115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:practice.AppiumFramework.TC02_APIDemoApk@7db12bb6]" started-at="2021-08-19T17:46:44 CEST" name="apiDemo" data-provider="InputData" finished-at="2021-08-19T17:47:13 CEST" duration-ms="29528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- practice.AppiumFramework.TC02_APIDemoApk -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
